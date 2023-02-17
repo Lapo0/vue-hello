@@ -6,7 +6,7 @@ const { createApp } = Vue
             return {
                 titol: 'Scegli un numero da 1 a 8',
                 img: 'https://www.tuttogreen.it/wp-content/uploads/2017/10/shutterstock_518591449-700x467.jpg',
-                text: 'ciao',
+                text: '',
             }
         },
         methods: {

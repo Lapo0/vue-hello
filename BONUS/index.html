@@ -17,8 +17,24 @@
             <div class="container" id="app">
                 <div class="row">
                     <h1>{{ titol }}</h1>
+
+                    <div>
+                        <input type="text" placeholder="Come ti chiami?" v-model="text" />
+                        <button @click="saluta" @click="text = ''">
+                            
+                        </button>
+                    </div>
+                    <p>
+                        {{ text }}
+                    </p>
+                    
+
+
+
                     
                     <img :src="img" alt="">
+
+
                     
                 </div>
             </div>
